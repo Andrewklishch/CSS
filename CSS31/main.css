@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+a {
+    color: rgb(13, 211, 46);
+    
+}
+
+
+
+#one {
+    
+    /*display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: inline-block;
+    vertical-align: middle;*/
+    
+}
+
+
+.number1 {
+    background: yellow;
+    padding: 20px;
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border: 5px solid black;*/
+    margin: 20px;
+    width: 35%;
+    height: 300px; 
+    text-align: right;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.number2 {
+    background: red;
+    padding: 20px;
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border: 5px solid black;*/
+    margin: 20px;
+    width: 35%;
+    height: 300px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+.num--cta a:hover, 
+.num--cta a:active
+{
+    color: rgb(18, 32, 233);
+    background: white;
+    border: none;
+    
+}

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    
+}
+#product1 {
+    background: url("freedom.jpg");
+    padding: 20px;
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border: 5px solid black;
+    margin: 20px;*/
+    width: 100%;
+    height: 500px;
+   
+}
+h1 {
+    color: rgb(211, 43, 13);
+    
+}
+.selection {
+    color: rgb(34, 21, 216);
+    font-family:inherit;
+}
+/*h1 {
+    font-family: serif;
+    
+} */
+.main-header {
+width: 100%;
+background: rgba(231, 9, 220, 0.533);
+padding: 8px 16px;
+}
+.main-header > div {
+    display: inline-block ;
+    vertical-align: middle;
+}
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+.main-nav {
+    display: inline-block ;  
+    text-align: right;
+    width: calc(100% - 4px);
+    vertical-align:  25px;
+    
+}
+.main-nav__itemsss {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.main-nav__item {
+display: inline-block;
+margin: 0px 16px;
+
+}
+.main-nav__item a {
+    color: #e4d611;
+    text-decoration: none;
+    font-weight: bold;
+    /*border-bottom: 3px solid white;*/
+    padding: 3px 0;
+}
+/*.main-nav__item a::after {
+ content: "(Link)";
+ color: crimson;
+}*/
+
+.main-nav__item a:hover, 
+.main-nav__item a:active
+{
+    color: white;
+    border-bottom: 3px solid white;
+}
+/*p::first-letter {
+    color: aqua;
+    font-size: 20px;
+}*/
+.main-nav__item--cta a {
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:hover, 
+.main-nav__item--cta a:active
+{
+    color: red;
+    background: white;
+    border: none;
+}
