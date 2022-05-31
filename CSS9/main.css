@@ -168,13 +168,13 @@
     border-color: #2ddf5c;
 }
 
-.modal__action--negative {
+.modal__action__negative {
     background: red;
     border-color: red;
 }
 
-.modal__action--negative:hover,
-.modal__action--negative:active {
+.modal__action__negative:hover,
+.modal__action__negative:active {
     background: #ff5454;
     border-color: #ff5454;
 }

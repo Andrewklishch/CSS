@@ -15,7 +15,7 @@ body {
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.5);
 }
 
 .main-header {
@@ -28,12 +28,12 @@ body {
     z-index: 1;
 }
 
-.main-header>div {
+.main-header > div {
     display: inline-block;
     vertical-align: middle;
 }
 
-.main_header__brand {
+.main-header__brand {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
@@ -43,7 +43,7 @@ body {
     display: inline-block;
 }
 
-.main_header__brand img {
+.main-header__brand img {
     height: 100%;
     /* width: 100%; */
 }
