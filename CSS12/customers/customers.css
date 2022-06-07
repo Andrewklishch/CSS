@@ -60,8 +60,10 @@ main {
 
 .testimonial__text {
     margin: 0.2rem;
-    /*font-variant: small-caps;*/
+    /*font-variant: small-caps;
     font-stretch: ultra-condensed;
+    letter-spacing: 5px;
+    white-space: pre-line;*/
 }
 
 @media (min-width: 40rem) {
