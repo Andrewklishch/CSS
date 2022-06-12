@@ -23,8 +23,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     /*flex-flow: row wrap;*/
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 .item-1 {
