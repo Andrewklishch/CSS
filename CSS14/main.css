@@ -5,6 +5,9 @@
     /*grid-template-columns: 200px 5rem 20% auto;*/
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, auto) [row-2-end row-3-start] 100px [rew-3-end];
+    /*grid-column-gap: 20px;
+    grid-row-gap: 10px;*/
+    grid-gap: 10px 20px;
 }
 
 .el1 {
