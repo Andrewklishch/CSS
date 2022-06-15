@@ -1,0 +1,48 @@
+.container {
+    background: gray;
+    display: grid;
+    margin: 1rem 0;
+    height: 500px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, auto) [row-2-end row-3-start] 100px [rew-3-end];
+}
+
+.header {
+    background: rgb(65, 63, 63);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.main {
+    background: rgb(65, 63, 63);
+    color: white;
+    margin: 1rem;
+    padding: 8.5rem 0;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sidebar {
+    background: rgb(65, 63, 63);
+    color: white;
+    margin: 1rem;
+    padding: 8.5rem 0;
+    text-align: center;
+}
+
+.footer {
+    background: rgb(65, 63, 63);
+    color: white;
+    margin: 1rem;
+    padding: 1.6rem;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
