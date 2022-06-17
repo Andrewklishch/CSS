@@ -9,7 +9,7 @@ body {
     grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 3fr [col-2-end];
     grid-template-rows: 4.5rem auto 4.5rem;
     grid-gap: 10px;
-    grid-template-areas: "header header header " ". main main " " footer footer footer";
+    grid-template-areas: "header header " "aside main " "  footer footer";
 }
 
 header {
@@ -25,16 +25,17 @@ main {
     color: white;
     /*grid-column-start: col-2-start;
     grid-column-end: span 1;*/
-    grid-column: col-2-start / span 1;
+    /*grid-column: col-2-start / span 1;*/
     grid-area: main;
 }
 
 aside {
     background: green;
     color: white;
-    grid-column-start: col-1-start;
+    /*grid-column-start: col-1-start;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 3;*/
+    grid-area: aside;
 }
 
 footer {
