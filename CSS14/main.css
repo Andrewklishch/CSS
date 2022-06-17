@@ -31,6 +31,8 @@
     grid-row: row-2-start / span 1;
     z-index: 10;
     grid-area: main;
+    justify-self: center;
+    align-self: center;
 }
 
 .el3 {
