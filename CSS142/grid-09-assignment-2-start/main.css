@@ -9,7 +9,7 @@ body {
     grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 3fr [col-2-end];
     grid-template-rows: 4.5rem auto 4.5rem;
     grid-gap: 10px;
-    grid-template-areas: "header header header header" ". main main main" "footer footer footer footer";
+    grid-template-areas: "header header header " ". main main " " footer footer footer";
 }
 
 header {
