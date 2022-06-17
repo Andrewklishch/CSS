@@ -7,7 +7,7 @@
     grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, auto) [row-2-end row-3-start] 100px [rew-3-end];
     /*grid-column-gap: 20px;
     grid-row-gap: 10px;*/
-    grid-gap: 10px 20px;
+    grid-gap: 10px 10px;
 }
 
 .el1 {
